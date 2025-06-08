@@ -23,6 +23,12 @@ python3 fortune.py "$@"
 EOF
 chmod +x "$BIN_DIR/fortune"
 
+if [[ ":$PATH:" != *":$BIN_DIR:"* ]]; then
+  echo "⚠️ Warning: $BIN_DIR is not in your PATH."
+  echo "Add this line to your shell profile:"
+  echo 'export PATH="$HOME/.local/bin:$PATH"'
+fi
+
 echo "[✓] fortune installed!"
 echo "Make sure \$HOME/.local/bin is in your PATH."
 echo "Try running: fortune"
