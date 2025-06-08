@@ -19,7 +19,7 @@ fi
 cat >"$BIN_DIR/fortune" <<EOF
 #!/bin/bash
 cd "$INSTALL_DIR"
-python3 fortune.py "\$@"
+python3 fortune.py "$@"
 EOF
 chmod +x "$BIN_DIR/fortune"
 
