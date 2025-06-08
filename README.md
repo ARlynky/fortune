@@ -22,9 +22,14 @@ This will:
 * Clone the repo into `~/.local/share/fortune`
 * Add a launcher to `~/.local/bin/fortune`
 * Let you run `fortune` from anywhere (if `~/.local/bin` is in your `PATH`)
+
+## 🛠 Updating
+
 You can update it via running the install script again either from the
 repo (.local/share/install.sh) or from the web like before
 note this will reset your fortunes.txt file if you edited it
+although this project is still a work in progress and small
+so i don't think you should care to update
 
 ---
 
