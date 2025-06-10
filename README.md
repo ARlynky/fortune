@@ -43,7 +43,7 @@ fortune/
 
 ---
 
-## 🤓 Notes
+## Notes
 
 * You can edit `fortunes.txt` to add your own messages.
 * This is a learning repo, so stuff might break or change often.
@@ -51,7 +51,7 @@ fortune/
 
 ---
 
-## 🧠 Why This Exists
+## Why This Exists
 
 I'm experimenting with lightweight ways to share personal tools — using
 Git, Bash, Python, and curl — without needing to dive into full
